@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<minitest>, ["~> 4.7"])
+      s.add_runtime_dependency(%q<minitest>, ["~> 5.2"])
       s.add_runtime_dependency(%q<minitest-test>, ["~> 1.0"])
       s.add_runtime_dependency(%q<railties>, [">= 3.0"])
       s.add_development_dependency(%q<rdoc>, ["~> 4.0"])
@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hoe>, ["~> 3.7"])
     end
   else
-    s.add_dependency(%q<minitest>, ["~> 4.7"])
+    s.add_dependency(%q<minitest>, ["~> 5.2"])
     s.add_dependency(%q<minitest-test>, ["~> 1.0"])
     s.add_dependency(%q<railties>, [">= 3.0"])
     s.add_dependency(%q<rdoc>, ["~> 4.0"])
