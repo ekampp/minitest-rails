@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<fakefs>, ["~> 0.4"])
       s.add_development_dependency(%q<hoe>, ["~> 3.7"])
     else
-      s.add_dependency(%q<minitest>, ["~> 4.7"])
+      s.add_dependency(%q<minitest>, ["~> 5.2"])
       s.add_dependency(%q<minitest-test>, ["~> 1.0"])
       s.add_dependency(%q<railties>, [">= 3.0"])
       s.add_dependency(%q<rdoc>, ["~> 4.0"])
